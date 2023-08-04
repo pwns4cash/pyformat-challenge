@@ -1,0 +1,4 @@
+{self.ask_secret.__globals__[SECRET]}
+
+#i have no idea how to get this to work properly... this is the solution though. I was able to pull the value of SECRET, but since the value of secrets.token_hex() 
+#always changes I didn't know how to validate it.  I updated the value of SECRET a string and was able to return that string.  Solved.
